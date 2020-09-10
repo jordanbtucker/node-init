@@ -14,7 +14,7 @@
     "coverage": "run-s -c tap tap-coverage",
     "eslint": "eslint --fix .",
     "lint": "run-s eslint prettier",
-    "prettier": "prettier --loglevel warn --write **/*.{js,json,md,yml}",
+    "prettier": "prettier --loglevel warn --write **/*.{babelrc,css,html,js,json,jsx,md,scss,ts,tsx,yml}",
     "preversion": "npm test",
     "start": "node lib",
     "tap": "tap test -R spec",
