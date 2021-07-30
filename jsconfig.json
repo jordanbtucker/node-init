@@ -1,5 +1,5 @@
 {
-  "include": ["lib", "test"],
+  "exclude": [".nyc_output", "coverage", "node_modules"],
   "typeAcquisition": {
     "enable": true,
     "include": ["node"]
