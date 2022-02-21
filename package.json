@@ -12,7 +12,7 @@
     "npm": ">=7"
   },
   "scripts": {
-    "coverage": "run-s -c tap tap-coverage",
+    "coverage": "run-s -c tap tap:coverage",
     "eslint": "eslint --fix .",
     "lint": "run-s eslint prettier",
     "prettier": "prettier --loglevel warn -w .",
@@ -20,7 +20,7 @@
     "preversion": "npm test",
     "start": "node lib",
     "tap": "tap test -R spec",
-    "tap-coverage": "tap --coverage-report html",
+    "tap:coverage": "tap --coverage-report html",
     "test": "run-s lint tap"
   },
   "dependencies": {
