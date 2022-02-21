@@ -1,4 +1,4 @@
 {
   "**/*.js": "eslint",
-  "**/*": "prettier -c"
+  "**/*": "prettier -c --loglevel warn"
 }
