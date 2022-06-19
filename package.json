@@ -24,22 +24,22 @@
     "test": "run-s lint tap"
   },
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@tsconfig/node14": "^1.0.3",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-promise": "^6.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.5.1",
-    "sinon": "^13.0.1",
-    "tap": "^15.1.6"
+    "prettier": "^2.7.1",
+    "sinon": "^14.0.0",
+    "tap": "^16.3.0"
   }
 }
