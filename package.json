@@ -19,7 +19,7 @@
     "prettier": "prettier --loglevel warn -w .",
     "preversion": "npm test",
     "start": "node lib",
-    "tap": "tap test -R spec",
+    "tap": "tap -R spec test",
     "tap:coverage": "tap --coverage-report html",
     "test": "run-s lint tap"
   },
